@@ -1,27 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="ja">
   <head>
     <meta charset="utf-8">
     <meta name="discription" content="雲外蒼天一騎当千">
-    <title>jQuery first Step</title>
+    <title>jQuery,JavaScript -first Step-</title>
     <link rel="shortcut icon" href="favicon.png">
   </head>
   <body>
-    <p>Здравствуйте!</p>
-    <p>Привет</p>
     <p>jQueryの練習</p>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <p><a href="http://google.com">Google</a></p>
+    <p><a href="http://yahoo.co.jp">Yahoo!</a></p>
+    <p><a href="http://dotinstall.com">Dotinstall</a></p>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script>
-      //$(document).ready(function() {
+      var msg = "hellow from script";
+            x = 10
+            y = 20
+      console.log(msg);
+    </script>
+    <script>
       $(function() {
-        $('p').css('color', 'red');
-        //alert(1);
+        $('a[href="http://yahoo.co.jp"]').css('background', 'red');
+        $('p').css('color', '#327131').css('background', '#71a4d9');
+        });
+    </script>
+    <!-- <script>
+      $(function() {
+        $('a[href="http://dotinstall.com"]').hover(
+          function() {
+            css(color: #ad0020;)
+          },
+          function() {
+            css(color: #a4c2a9;)
+          }
+        );
       });
-    </script>
-    ---
-    <script src="myscript.js"></script>
-    <p>JavaScriptの練習</p>
-    <script>
-      console.log("Hello world!");
-    </script>
+    </script> -->
   </body>
+</html>

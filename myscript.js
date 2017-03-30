@@ -1,1 +1,1 @@
-console.log("hellow from script");
+// console.log("hellow from script");
